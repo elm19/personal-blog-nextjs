@@ -6,6 +6,8 @@ import { ThemeProvider } from '@mui/material/styles';
 import theme from '../theme';
 import CssBaseline from '@mui/material/CssBaseline';
 import { HeaderNavBar } from "@/components/HeaderNavBar";
+import Toolbar from "@mui/material/Toolbar/Toolbar";
+import SearchAppBar from "@/components/search";
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -31,7 +33,9 @@ export default function RootLayout({
           <AppRouterCacheProvider>
            <ThemeProvider theme={theme}>
               <CssBaseline />
-              < HeaderNavBar />
+              < SearchAppBar />
+              {/* < HeaderNavBar /> */}
+              <Toolbar />
               {children}
            </ThemeProvider>
           </AppRouterCacheProvider>

@@ -1,0 +1,5 @@
+a, a:link, a:visited, a:hover, a:active {
+    all: unset; /* Resets all styles */
+    text-decoration: none; /* Removes underline */
+    cursor: pointer; /* Ensures pointer cursor remains */
+  }

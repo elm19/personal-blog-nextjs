@@ -1,15 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import Typography from "@mui/material/Typography/Typography";
 import Box from "@mui/material/Box/Box";
-import Toolbar from "@mui/material/Toolbar/Toolbar";
-
 
 
 export default function Home() {
   return (
     <Box component="main" sx={{ p: 3 }}>
-    <Toolbar />
     <Typography>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique unde
       fugit veniam eius, perspiciatis sunt? Corporis qui ducimus quibusdam,
